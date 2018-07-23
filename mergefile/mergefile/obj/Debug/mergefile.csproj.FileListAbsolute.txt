@@ -1,0 +1,10 @@
+F:\GitPro\filemerge\mergefile\mergefile\bin\Debug\mergefile.exe.config
+F:\GitPro\filemerge\mergefile\mergefile\bin\Debug\mergefile.exe
+F:\GitPro\filemerge\mergefile\mergefile\bin\Debug\mergefile.pdb
+F:\GitPro\filemerge\mergefile\mergefile\obj\Debug\mergefile.csprojResolveAssemblyReference.cache
+F:\GitPro\filemerge\mergefile\mergefile\obj\Debug\mergefile.Form1.resources
+F:\GitPro\filemerge\mergefile\mergefile\obj\Debug\mergefile.Properties.Resources.resources
+F:\GitPro\filemerge\mergefile\mergefile\obj\Debug\mergefile.csproj.GenerateResource.Cache
+F:\GitPro\filemerge\mergefile\mergefile\obj\Debug\mergefile.exe.licenses
+F:\GitPro\filemerge\mergefile\mergefile\obj\Debug\mergefile.exe
+F:\GitPro\filemerge\mergefile\mergefile\obj\Debug\mergefile.pdb
