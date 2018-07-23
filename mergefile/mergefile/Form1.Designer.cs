@@ -35,8 +35,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.destPath = new DevExpress.XtraEditors.TextEdit();
             this.openDest = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.exten = new DevExpress.XtraEditors.TextEdit();
             ((System.ComponentModel.ISupportInitialize)(this.textEfilePath.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.destPath.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.exten.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -102,11 +105,29 @@
             this.openDest.UseVisualStyleBackColor = true;
             this.openDest.Click += new System.EventHandler(this.openDest_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 92);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(125, 12);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "请填写文件的后缀名：";
+            // 
+            // exten
+            // 
+            this.exten.Location = new System.Drawing.Point(151, 89);
+            this.exten.Name = "exten";
+            this.exten.Size = new System.Drawing.Size(138, 20);
+            this.exten.TabIndex = 8;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(407, 122);
+            this.ClientSize = new System.Drawing.Size(418, 152);
+            this.Controls.Add(this.exten);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.openDest);
             this.Controls.Add(this.destPath);
             this.Controls.Add(this.label2);
@@ -118,6 +139,7 @@
             this.Text = "文件合并";
             ((System.ComponentModel.ISupportInitialize)(this.textEfilePath.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.destPath.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.exten.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -132,6 +154,8 @@
         private System.Windows.Forms.Label label2;
         private DevExpress.XtraEditors.TextEdit destPath;
         private System.Windows.Forms.Button openDest;
+        private System.Windows.Forms.Label label3;
+        private DevExpress.XtraEditors.TextEdit exten;
     }
 }
 

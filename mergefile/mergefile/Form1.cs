@@ -37,8 +37,25 @@ namespace mergefile
 
         private void BTStart_Click(object sender, EventArgs e)
         {
+            string fileExtent = exten.Text;
+            if (fileExtent.IndexOf(".") > -1)
+            {
+                MessageBox.Show("请填写正确的文件后缀名，比如test.text文件的后缀名为(.text)");
+                return;
+            }
+            if(fileExtent == null)
+            {
+                MessageBox.Show("后缀名不能为空！");
+                return;
+            }
+            if (filePath == null || fileDestPath == null)
+            {
+                MessageBox.Show("目录不能为空！");
+                return;
+            }
             DirectoryInfo directoryInfo = new DirectoryInfo(filePath);
-            string fileExtent = ".cs";
+            
+
             ArrayList alist = new ArrayList();
             ArrayList afileName = new ArrayList();
             GetAllFiles(alist, afileName,fileExtent, directoryInfo);
